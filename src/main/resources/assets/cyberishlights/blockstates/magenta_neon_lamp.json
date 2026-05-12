@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=false": { "model": "cyberishlights:block/magenta_neon_lamp" },
+    "lit=true": { "model": "cyberishlights:block/magenta_neon_lamp_lit" }
+  }
+}

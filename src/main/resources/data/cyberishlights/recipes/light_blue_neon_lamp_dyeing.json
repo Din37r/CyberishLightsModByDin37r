@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "neon_lamps_dyeing",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "cyberishlights:neon_lamps"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    }
+  ],
+  "result": {
+    "item": "cyberishlights:light_blue_neon_lamp",
+    "count": 1
+  }
+}
