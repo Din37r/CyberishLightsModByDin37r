@@ -3,13 +3,13 @@
   "group": "neon_lamps",
   "category": "building",
   "pattern": [
-    "IGI",
-    "RDR",
-    "IGI"
+    "IDI",
+    "RGR",
+    "IRI"
   ],
   "key": {
     "G": {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:glowstone"
     },
     "I": {
       "item": "minecraft:iron_nugget"

@@ -1,13 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_redstone_or_glowstone_dust": {
+    "has_redstone_or_glowstone": {
       "conditions": {
         "items": [
           {
             "items": [
               "minecraft:redstone",
-              "minecraft:glowstone_dust"
+              "minecraft:glowstone"
             ]
           }
         ]
@@ -23,7 +23,7 @@
   },
   "requirements": [
     [
-      "has_redstone_or_glowstone_dust",
+      "has_redstone_or_glowstone",
       "has_the_recipe"
     ]
   ],
