@@ -5,8 +5,6 @@ import net.din37r.cyberishlights.block.ModBlocks;
 import net.din37r.cyberishlights.item.ModCreativeModTabs;
 import net.din37r.cyberishlights.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -35,36 +33,11 @@ public class CyberishLights
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
-        // Register ourselves for server and other game events we are interested in
-        MinecraftForge.EVENT_BUS.register(this);
-
-        // Register the item to a creative tab
-        // modEventBus.addListener(this::addCreative);
-
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         // context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
-    {
-
-    }
-
-    // Add the example block item to the building blocks tab
-    //private void addCreative(BuildCreativeModeTabContentsEvent event)
-    //{
-    //    if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-    //        event.accept(ModItems.ELITARIUM_INGOT);
-    //        event.accept(ModItems.ALITARIUM_INGOT);
-    //    }
-    //    if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-    //        event.accept(ModBlocks.PLITKA_BLOCK);
-    //    }
-    //}
-
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event)
     {
 
     }
