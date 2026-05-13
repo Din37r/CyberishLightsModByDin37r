@@ -3,9 +3,23 @@
   "group": "neon_lamps_dyeing",
   "category": "building",
   "ingredients": [
-    {
-      "tag": "cyberishlights:neon_lamps"
-    },
+    [
+      { "item": "cyberishlights:white_neon_lamp" },
+      { "item": "cyberishlights:light_gray_neon_lamp" },
+      { "item": "cyberishlights:gray_neon_lamp" },
+      { "item": "cyberishlights:black_neon_lamp" },
+      { "item": "cyberishlights:brown_neon_lamp" },
+      { "item": "cyberishlights:red_neon_lamp" },
+      { "item": "cyberishlights:orange_neon_lamp" },
+      { "item": "cyberishlights:yellow_neon_lamp" },
+      { "item": "cyberishlights:lime_neon_lamp" },
+      { "item": "cyberishlights:green_neon_lamp" },
+      { "item": "cyberishlights:cyan_neon_lamp" },
+      { "item": "cyberishlights:light_blue_neon_lamp" },
+      { "item": "cyberishlights:purple_neon_lamp" },
+      { "item": "cyberishlights:magenta_neon_lamp" },
+      { "item": "cyberishlights:pink_neon_lamp" }
+    ],
     {
       "item": "minecraft:blue_dye"
     }
