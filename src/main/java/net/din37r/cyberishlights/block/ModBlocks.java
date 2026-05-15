@@ -23,6 +23,15 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, CyberishLights.MOD_ID);
 
     //Blocks here
+    public static final RegistryObject<Block> RED_NEON_LANTERN = registerBlock("red_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.TERRACOTTA_RED)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()));
+
     public static final RegistryObject<Block> WHITE_NEON_LAMP = registerBlock("white_neon_lamp",
             () -> new RedstoneLampBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_LAMP)
                     .mapColor(MapColor.TERRACOTTA_WHITE)
