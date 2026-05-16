@@ -12,9 +12,10 @@ import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class NeonLantern extends Block {
+public class NeonLantern extends Block implements net.minecraft.world.level.block.SimpleWaterloggedBlock {
 
     public static final DirectionProperty FACING = DirectionalBlock.FACING;
+    public static final net.minecraft.world.level.block.state.properties.BooleanProperty WATERLOGGED = net.minecraft.world.level.block.state.properties.BlockStateProperties.WATERLOGGED;
 
     private static final VoxelShape SHAPE_UP    = Block.box(4.0, 0.0, 4.0, 12.0, 9.0, 12.0);
     private static final VoxelShape SHAPE_DOWN  = Block.box(4.0, 7.0, 4.0, 12.0, 16.0, 12.0);
@@ -25,7 +26,9 @@ public class NeonLantern extends Block {
 
     public NeonLantern(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.UP));
+        this.registerDefaultState(this.stateDefinition.any()
+                .setValue(FACING, Direction.UP)
+                .setValue(WATERLOGGED, false));
     }
 
     @Override
@@ -43,11 +46,26 @@ public class NeonLantern extends Block {
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         Direction clickedFace = context.getClickedFace();
-        return this.defaultBlockState().setValue(FACING, clickedFace);
+        net.minecraft.world.level.material.FluidState fluidState = context.getLevel().getFluidState(context.getClickedPos());
+        boolean isWater = fluidState.getType() == net.minecraft.world.level.material.Fluids.WATER;
+        return this.defaultBlockState().setValue(FACING, clickedFace).setValue(WATERLOGGED, isWater);
     }
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(FACING);
+        builder.add(FACING, WATERLOGGED);
+    }
+
+    @Override
+    public net.minecraft.world.level.material.FluidState getFluidState(BlockState state) {
+        return state.getValue(WATERLOGGED) ? net.minecraft.world.level.material.Fluids.WATER.getSource(false) : super.getFluidState(state);
+    }
+
+    @Override
+    public BlockState updateShape(BlockState state, Direction direction, BlockState neighborState, net.minecraft.world.level.LevelAccessor level, BlockPos currentPos, BlockPos neighborPos) {
+        if (state.getValue(WATERLOGGED)) {
+            level.scheduleTick(currentPos, net.minecraft.world.level.material.Fluids.WATER, net.minecraft.world.level.material.Fluids.WATER.getTickDelay(level));
+        }
+        return super.updateShape(state, direction, neighborState, level, currentPos, neighborPos);
     }
 }

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "neon_lanterns",
+  "category": "building",
+  "pattern": [
+    " D ",
+    "IGI",
+    " I "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "D": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "cyberishlights:red_neon_lantern",
+    "count": 1
+  }
+}

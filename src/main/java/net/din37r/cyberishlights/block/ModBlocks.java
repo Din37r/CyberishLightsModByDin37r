@@ -25,7 +25,7 @@ public class ModBlocks {
     //Blocks here
     public static final RegistryObject<Block> RED_NEON_LANTERN = registerBlock("red_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.TERRACOTTA_RED)
+                    .mapColor(MapColor.COLOR_RED)
                     .strength(3.5F)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
