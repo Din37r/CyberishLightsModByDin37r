@@ -34,6 +34,22 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.PURPLE_NEON_LAMP.get());
                         output.accept(ModBlocks.MAGENTA_NEON_LAMP.get());
                         output.accept(ModBlocks.PINK_NEON_LAMP.get());
+                        output.accept(ModBlocks.WHITE_NEON_LANTERN.get());
+                        output.accept(ModBlocks.LIGHT_GRAY_NEON_LANTERN.get());
+                        output.accept(ModBlocks.GRAY_NEON_LANTERN.get());
+                        output.accept(ModBlocks.BLACK_NEON_LANTERN.get());
+                        output.accept(ModBlocks.BROWN_NEON_LANTERN.get());
+                        output.accept(ModBlocks.RED_NEON_LANTERN.get());
+                        output.accept(ModBlocks.ORANGE_NEON_LANTERN.get());
+                        output.accept(ModBlocks.YELLOW_NEON_LANTERN.get());
+                        output.accept(ModBlocks.LIME_NEON_LANTERN.get());
+                        output.accept(ModBlocks.GREEN_NEON_LANTERN.get());
+                        output.accept(ModBlocks.CYAN_NEON_LANTERN.get());
+                        output.accept(ModBlocks.LIGHT_BLUE_NEON_LANTERN.get());
+                        output.accept(ModBlocks.BLUE_NEON_LANTERN.get());
+                        output.accept(ModBlocks.PURPLE_NEON_LANTERN.get());
+                        output.accept(ModBlocks.MAGENTA_NEON_LANTERN.get());
+                        output.accept(ModBlocks.PINK_NEON_LANTERN.get());
                     })
                     .build());
 

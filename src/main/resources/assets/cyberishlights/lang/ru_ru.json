@@ -16,7 +16,22 @@
   "block.cyberishlights.magenta_neon_lamp": "Пурпурная неоновая лампа",
   "block.cyberishlights.pink_neon_lamp": "Розовая неоновая лампа",
 
+  "block.cyberishlights.white_neon_lantern": "Белый неоновый фонарь",
+  "block.cyberishlights.light_gray_neon_lantern": "Светло-серый неоновый фонарь",
+  "block.cyberishlights.gray_neon_lantern": "Серый неоновый фонарь",
+  "block.cyberishlights.black_neon_lantern": "Чёрный неоновый фонарь",
+  "block.cyberishlights.brown_neon_lantern": "Коричневый неоновый фонарь",
   "block.cyberishlights.red_neon_lantern": "Красный неоновый фонарь",
+  "block.cyberishlights.orange_neon_lantern": "Оранжевый неоновый фонарь",
+  "block.cyberishlights.yellow_neon_lantern": "Жёлтый неоновый фонарь",
+  "block.cyberishlights.lime_neon_lantern": "Лаймовый неоновый фонарь",
+  "block.cyberishlights.green_neon_lantern": "Зелёный неоновый фонарь",
+  "block.cyberishlights.cyan_neon_lantern": "Бирюзовый неоновый фонарь",
+  "block.cyberishlights.light_blue_neon_lantern": "Голубой неоновый фонарь",
+  "block.cyberishlights.blue_neon_lantern": "Синий неоновый фонарь",
+  "block.cyberishlights.purple_neon_lantern": "Фиолетовый неоновый фонарь",
+  "block.cyberishlights.magenta_neon_lantern": "Пурпурный неоновый фонарь",
+  "block.cyberishlights.pink_neon_lantern": "Розовый неоновый фонарь",
 
   "creativetab.cyberishlights_tab": "Cyberish Lights"
 }

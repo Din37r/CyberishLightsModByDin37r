@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import org.jetbrains.annotations.NotNull;
 
 public class NeonLantern extends Block implements net.minecraft.world.level.block.SimpleWaterloggedBlock {
 
@@ -32,7 +33,7 @@ public class NeonLantern extends Block implements net.minecraft.world.level.bloc
     }
 
     @Override
-    public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
+    public @NotNull VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
         return switch (state.getValue(FACING)) {
             case DOWN  -> SHAPE_DOWN;
             case NORTH -> SHAPE_NORTH;

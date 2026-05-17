@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "neon_lanterns_dyeing",
+  "category": "building",
+  "ingredients": [
+    [
+      { "item": "cyberishlights:white_neon_lantern" },
+      { "item": "cyberishlights:light_gray_neon_lantern" },
+      { "item": "cyberishlights:black_neon_lantern" },
+      { "item": "cyberishlights:brown_neon_lantern" },
+      { "item": "cyberishlights:red_neon_lantern" },
+      { "item": "cyberishlights:orange_neon_lantern" },
+      { "item": "cyberishlights:yellow_neon_lantern" },
+      { "item": "cyberishlights:lime_neon_lantern" },
+      { "item": "cyberishlights:green_neon_lantern" },
+      { "item": "cyberishlights:cyan_neon_lantern" },
+      { "item": "cyberishlights:light_blue_neon_lantern" },
+      { "item": "cyberishlights:blue_neon_lantern" },
+      { "item": "cyberishlights:purple_neon_lantern" },
+      { "item": "cyberishlights:magenta_neon_lantern" },
+      { "item": "cyberishlights:pink_neon_lantern" }
+    ],
+    {
+      "item": "minecraft:gray_dye"
+    }
+  ],
+  "result": {
+    "item": "cyberishlights:gray_neon_lantern",
+    "count": 1
+  }
+}

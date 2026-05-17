@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "cyberishlights:block/magenta_neon_lantern" },
+    "facing=south": { "model": "cyberishlights:block/magenta_neon_lantern", "y": 180 },
+    "facing=east":  { "model": "cyberishlights:block/magenta_neon_lantern", "y": 90 },
+    "facing=west":  { "model": "cyberishlights:block/magenta_neon_lantern", "y": 270 },
+    "facing=up":    { "model": "cyberishlights:block/magenta_neon_lantern", "x": 270 },
+    "facing=down":  { "model": "cyberishlights:block/magenta_neon_lantern", "x": 90 }
+  }
+}
