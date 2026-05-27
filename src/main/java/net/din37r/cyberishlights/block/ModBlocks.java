@@ -30,7 +30,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> LIGHT_GRAY_NEON_LANTERN = registerBlock("light_gray_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -39,7 +40,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> GRAY_NEON_LANTERN = registerBlock("gray_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -48,7 +50,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> BLACK_NEON_LANTERN = registerBlock("black_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -57,7 +60,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> BROWN_NEON_LANTERN = registerBlock("brown_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -66,7 +70,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> RED_NEON_LANTERN = registerBlock("red_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -75,7 +80,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> ORANGE_NEON_LANTERN = registerBlock("orange_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -84,7 +90,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> YELLOW_NEON_LANTERN = registerBlock("yellow_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -93,7 +100,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> LIME_NEON_LANTERN = registerBlock("lime_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -102,7 +110,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> GREEN_NEON_LANTERN = registerBlock("green_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -111,7 +120,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> CYAN_NEON_LANTERN = registerBlock("cyan_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -120,7 +130,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> LIGHT_BLUE_NEON_LANTERN = registerBlock("light_blue_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -129,7 +140,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> BLUE_NEON_LANTERN = registerBlock("blue_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -138,7 +150,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> PURPLE_NEON_LANTERN = registerBlock("purple_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -147,7 +160,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> MAGENTA_NEON_LANTERN = registerBlock("magenta_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -156,7 +170,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> PINK_NEON_LANTERN = registerBlock("pink_neon_lantern",
             () -> new NeonLantern(BlockBehaviour.Properties.of()
@@ -165,7 +180,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.LANTERN)
                     .lightLevel(state -> 15)
-                    .noOcclusion()));
+                    .noOcclusion()
+                    .forceSolidOn()));
 
     public static final RegistryObject<Block> WHITE_NEON_LAMP = registerBlock("white_neon_lamp",
             () -> new RedstoneLampBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_LAMP)
