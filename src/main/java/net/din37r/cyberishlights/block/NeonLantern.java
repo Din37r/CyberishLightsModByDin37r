@@ -13,6 +13,7 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.NotNull;
 
+@SuppressWarnings("deprecation")
 public class NeonLantern extends Block implements net.minecraft.world.level.block.SimpleWaterloggedBlock {
 
     public static final DirectionProperty FACING = DirectionalBlock.FACING;
@@ -33,7 +34,7 @@ public class NeonLantern extends Block implements net.minecraft.world.level.bloc
     }
 
     @Override
-    public @NotNull VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
+    public @NotNull VoxelShape getShape(BlockState state, @NotNull BlockGetter level, @NotNull BlockPos pos, @NotNull CollisionContext context) {
         return switch (state.getValue(FACING)) {
             case DOWN  -> SHAPE_DOWN;
             case NORTH -> SHAPE_NORTH;
@@ -58,12 +59,12 @@ public class NeonLantern extends Block implements net.minecraft.world.level.bloc
     }
 
     @Override
-    public net.minecraft.world.level.material.FluidState getFluidState(BlockState state) {
+    public net.minecraft.world.level.material.@NotNull FluidState getFluidState(BlockState state) {
         return state.getValue(WATERLOGGED) ? net.minecraft.world.level.material.Fluids.WATER.getSource(false) : super.getFluidState(state);
     }
 
     @Override
-    public BlockState updateShape(BlockState state, Direction direction, BlockState neighborState, net.minecraft.world.level.LevelAccessor level, BlockPos currentPos, BlockPos neighborPos) {
+    public @NotNull BlockState updateShape(BlockState state, @NotNull Direction direction, @NotNull BlockState neighborState, net.minecraft.world.level.@NotNull LevelAccessor level, @NotNull BlockPos currentPos, @NotNull BlockPos neighborPos) {
         if (state.getValue(WATERLOGGED)) {
             level.scheduleTick(currentPos, net.minecraft.world.level.material.Fluids.WATER, net.minecraft.world.level.material.Fluids.WATER.getTickDelay(level));
         }
