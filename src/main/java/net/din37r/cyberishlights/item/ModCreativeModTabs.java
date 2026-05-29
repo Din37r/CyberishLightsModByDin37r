@@ -15,7 +15,7 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CyberishLights.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> CYBERISHLIGHTS_TAB = CREATIVE_MODE_TABS.register("cyberishlights_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.WHITE_NEON_LAMP.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.LIGHT_BLUE_NEON_LAMP.get()))
                     .title(Component.translatable("creativetab.cyberishlights_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.WHITE_NEON_LAMP.get());
