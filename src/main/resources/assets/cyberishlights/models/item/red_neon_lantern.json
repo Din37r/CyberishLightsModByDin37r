@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cyberishlights:item/red_neon_lantern"
+  }
+}

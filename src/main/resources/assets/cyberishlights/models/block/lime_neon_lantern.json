@@ -1,0 +1,6 @@
+{
+	"parent": "cyberishlights:block/template_neon_lantern",
+	"textures": {
+		"neon_lantern": "cyberishlights:block/lime_neon_lantern"
+	}
+}
