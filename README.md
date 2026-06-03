@@ -1,6 +1,6 @@
 Cyberish Lights by Din37r
 ---
-This is the main branch for Minecraft Forge 1.20.1
+This is the branch for Minecraft NeoForge 1.21.1
 
 Modrinth Page > https://modrinth.com/mod/cyberish-lights
 
