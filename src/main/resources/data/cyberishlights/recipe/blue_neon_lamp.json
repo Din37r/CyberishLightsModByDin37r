@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "neon_lamps",
+  "category": "building",
+  "pattern": [
+    "IDI",
+    "RGR",
+    "IRI"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "D": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result": {
+    "id": "cyberishlights:blue_neon_lamp",
+    "count": 1
+  }
+}
