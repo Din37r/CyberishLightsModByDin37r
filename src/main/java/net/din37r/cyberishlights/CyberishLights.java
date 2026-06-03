@@ -1,5 +1,6 @@
 package net.din37r.cyberishlights;
 
+import net.din37r.cyberishlights.block.ModBlocks;
 import net.din37r.cyberishlights.item.ModItems;
 import org.slf4j.Logger;
 
@@ -32,6 +33,7 @@ public class CyberishLights {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
