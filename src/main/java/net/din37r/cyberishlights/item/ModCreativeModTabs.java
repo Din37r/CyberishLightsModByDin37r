@@ -15,6 +15,7 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CyberishLights.MOD_ID);
 
+    @SuppressWarnings("unused")
     public static final Supplier<CreativeModeTab> CYBERISHLIGHTS_TAB = CREATIVE_MODE_TAB.register("cyberishlights_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.LIGHT_BLUE_NEON_LAMP.get()))
                     .title(Component.translatable("creativetab.cyberishlights_tab"))
@@ -35,7 +36,7 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.PURPLE_NEON_LAMP.get());
                         output.accept(ModBlocks.MAGENTA_NEON_LAMP.get());
                         output.accept(ModBlocks.PINK_NEON_LAMP.get());
-                        /*output.accept(ModBlocks.WHITE_NEON_LANTERN.get());
+                        output.accept(ModBlocks.WHITE_NEON_LANTERN.get());
                         output.accept(ModBlocks.LIGHT_GRAY_NEON_LANTERN.get());
                         output.accept(ModBlocks.GRAY_NEON_LANTERN.get());
                         output.accept(ModBlocks.BLACK_NEON_LANTERN.get());
@@ -50,7 +51,7 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.BLUE_NEON_LANTERN.get());
                         output.accept(ModBlocks.PURPLE_NEON_LANTERN.get());
                         output.accept(ModBlocks.MAGENTA_NEON_LANTERN.get());
-                        output.accept(ModBlocks.PINK_NEON_LANTERN.get());*/
+                        output.accept(ModBlocks.PINK_NEON_LANTERN.get());
                     })
                     .build());
 

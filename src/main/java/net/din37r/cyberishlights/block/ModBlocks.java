@@ -21,6 +21,165 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(CyberishLights.MOD_ID);
 
+    public static final DeferredBlock<Block> WHITE_NEON_LANTERN = registerBlock("white_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.SNOW)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> LIGHT_GRAY_NEON_LANTERN = registerBlock("light_gray_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_LIGHT_GRAY)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> GRAY_NEON_LANTERN = registerBlock("gray_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_GRAY)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> BLACK_NEON_LANTERN = registerBlock("black_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_BLACK)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> BROWN_NEON_LANTERN = registerBlock("brown_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_BROWN)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> RED_NEON_LANTERN = registerBlock("red_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_RED)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> ORANGE_NEON_LANTERN = registerBlock("orange_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> YELLOW_NEON_LANTERN = registerBlock("yellow_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_YELLOW)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> LIME_NEON_LANTERN = registerBlock("lime_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_LIGHT_GREEN)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> GREEN_NEON_LANTERN = registerBlock("green_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_GREEN)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> CYAN_NEON_LANTERN = registerBlock("cyan_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_CYAN)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> LIGHT_BLUE_NEON_LANTERN = registerBlock("light_blue_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_LIGHT_BLUE)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> BLUE_NEON_LANTERN = registerBlock("blue_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_BLUE)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> PURPLE_NEON_LANTERN = registerBlock("purple_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_PURPLE)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> MAGENTA_NEON_LANTERN = registerBlock("magenta_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_MAGENTA)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> PINK_NEON_LANTERN = registerBlock("pink_neon_lantern",
+            () -> new NeonLantern(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_PINK)
+                    .strength(3.5F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(state -> 15)
+                    .noOcclusion()
+                    .forceSolidOn()));
     public static final DeferredBlock<Block> WHITE_NEON_LAMP = registerBlock("white_neon_lamp",
             () -> new RedstoneLampBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.REDSTONE_LAMP)
                     .mapColor(MapColor.TERRACOTTA_WHITE)
