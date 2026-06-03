@@ -46,7 +46,7 @@ authors="Din37r"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Adds different colorful cyberish lights!\nINDEV NEOFORGE PORT 2.0.0
+Adds different colorful cyberish lights!\nRelease 2.0.0
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
