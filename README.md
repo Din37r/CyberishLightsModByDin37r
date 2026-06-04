@@ -19,3 +19,9 @@ Planned
 - Forge 1.16.5 port
 - 🔄︎ NeoForge 1.21.1 port
 - Dye Depot compatibility (will be done in a separate compatibility mod)
+
+Special thanks
+---
+- Kaupenjoe
+- Flafin
+- IceBan
