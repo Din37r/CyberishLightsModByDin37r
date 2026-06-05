@@ -14,6 +14,10 @@ About
   
   **Neon lanterns** can be placed on blocks, they do not require support in order to stay up.
 
+Modpacks
+---
+You are free to use my mod in your modpacks!
+
 Planned
 ---
 - Forge 1.16.5 port
